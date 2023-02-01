@@ -1,0 +1,450 @@
+body{
+    font-size:18px;
+    color:#999;
+    background-color: rgb(181, 206, 132);
+    overflow-x: hidden;
+}
+
+
+article{
+    width: 80%;
+    margin: 50px auto 0;
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius:7px;
+    border:8px double rgb(14, 194, 203);
+}
+
+
+#modal{
+position: fixed;
+width: 100%;
+height:100%;
+display: none;
+background-color: burlywood;
+box-sizing: border-box;
+}
+
+
+#modal>section{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin: -438.595px 0 0 -600px;
+    width: 1200px;
+    border: 1px solid black;
+    background-color: rgb(189 130 72);
+    padding: 20px;
+}
+
+#modal>section>figure{
+display: flex;
+justify-content:space-between;
+align-items: center;
+height: 20vh;
+margin-bottom: 20px;
+}
+
+#modal>section>figure:last-child{
+    margin-bottom: 0px;
+}
+
+
+#modal>section>figure>img{
+    width: 18%;
+    height: 100%;
+    border: 4px double black;
+}
+
+#modal>section>figure>figcaption{
+    width: 81%;
+    color: white;
+    background-color: rgb(102, 98, 94);
+    border: 4px double black;
+    margin-left: 20px;
+}
+
+#modal>section>figure>figcaption>dl{
+    padding: 30px;
+    padding-top: 35px;
+}
+
+#modal>section>figure>figcaption>dl>dt:first-child{
+    margin-bottom: 20px;
+    text-shadow: 3px 3px 6px black;
+}
+
+
+#modal>section>figure>figcaption>dl>dt:nth-child(2){
+    margin-bottom: 10px;
+    text-shadow: 3px 3px 6px black;
+}
+
+
+#modal>section>div{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    font-size: 50px;
+    color: black;
+}
+
+
+#search{
+    padding: 20px;
+    margin-bottom:20px;
+    border: 3px solid black;
+    border-radius:7px;
+}
+
+#search>div{
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    position: relative;
+}
+
+#search>div>input{
+    border: rgb(8, 39, 219);
+    line-height: 25px;
+    width: 60%;
+    text-indent: 20px;
+    font-size: 30px;
+    border-radius:7px;
+    margin-right: 6px;
+}
+
+#search>div>button#searchButton{
+    line-height: 40px;
+    width: 8%; 
+    color: black;
+    height: 100%;
+    font-size: 20px;
+    border-radius:7px;
+    text-shadow: 1px 1px 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#search>div>button#listSort{
+    position: absolute;
+    right: 0;
+    top: 0%;
+    border: none;
+    background-color: rgb(14, 194, 203);
+    width: 15%; 
+    color: #fff;
+    height: 100%;
+    font-size: 25px;
+    border-radius:7px;
+}
+
+#search>div>ul{
+    position: absolute;
+    right: 1px; top: 27px;
+    width: 20%;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid rgb(14, 194, 203);
+    z-index: 100;
+    border-radius: 7px;
+    color: black;
+    text-shadow: 2px 2px 2px rgb(211, 207, 207);
+}
+
+#search>div>ul>li{
+    padding: 10px;
+    border-bottom: 1px solid rgb(14, 194, 203);
+}
+
+#search>div>ul>li:last-child{
+    border-bottom: none;
+}
+
+
+#travelGuidance{
+    line-height: 63px;
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    padding: 10px 0;
+    background-color: rgb(14, 194, 203);
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 4px black;
+}
+
+
+#leftRight{
+    display: flex;
+    justify-content: space-between;
+}
+
+#leftRight #span{
+    display: block;
+    width: 3px;
+    background-color: black;
+    text-indent: -9999999px;
+}
+
+article>#leftRight>#appoint>h3{
+    margin-top: 30px;
+    font-size: 33px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(193, 10, 217); 
+    text-shadow: 2px 2px 3px black;
+
+}
+
+
+#appoint{
+    width: 50%;
+    height: 100%;
+    margin-bottom:20px;
+    margin-right: 25px;
+    border-radius:7px;
+    border:3px solid black ;
+    padding: 30px;
+}
+
+
+#appoint>h4{
+    padding: 10px 20px;
+    margin-bottom: 25px;
+    background-color:rgb(14, 194, 203);
+    color: #fff;
+    cursor: pointer;
+    border-radius:7px;
+    font-size: 25px;
+    text-shadow: 2px 2px 2px black;
+}
+
+#appoint>ul{
+    padding:0 0 20px 0px;
+    border-radius:7px;
+}
+
+#appoint>ul>li{
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+#appoint>ul>li label{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+
+#appoint>ul>li label>div{
+    margin-right: 10px;
+}
+
+
+#appoint>ul>li input{
+    border-radius: 7px;
+}
+
+#appoint>ul>li select{
+    border-radius: 7px;
+    width: 85%;
+    border: 1px solid #ccc;
+    padding: 10px;
+
+}
+
+
+#appoint>ul>li textarea{
+    border-radius: 7px;
+
+}
+
+
+
+#appoint>ul>li>label{
+    width: 15%;
+}
+
+#appoint>ul>li>input, #appoint>ul>li>textarea{
+    width: 80%;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#appoint>p>button{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    padding: 10px 0;
+    background-color: rgb(14, 194, 203);
+    color: #fff;
+    border-radius:7px;
+    font-size: 25px;
+}
+
+
+#appoint>#alert{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 400px;
+    height: 700px;
+    margin-top: -350px;
+    margin-left: -200px;
+    background-color: beige;
+    z-index: 3000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#appoint>#alert>#closeAlert{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 40px;
+    color: black;
+}
+
+#appoint>#alert>dl{
+    width: 300px;
+    height: 530px;
+    color: black;
+    border: 5px double black;
+
+}
+
+#appoint>#alert>dl div{
+display: flex;
+justify-content: center;
+align-items: center;
+border-bottom: 1px solid black;
+}
+
+#appoint>#alert>dl div:last-child{
+    border: none;
+}
+
+
+#appoint>#alert>dl>dt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    border-bottom: 1px solid black;
+    font-size: 25px;
+    text-shadow: 1px 1px 2px black;
+}
+
+#appoint>#alert>dl div>dt{
+    width: 50%;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#appoint>#alert>dl div>dd{
+    width: 50%;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#list{
+    width: 50%;
+    padding: 0 20px;
+    border: 3px solid black;
+    border-radius:7px;
+    margin-left:25px ;
+}
+
+
+#list ul{
+    background-color: #fff;
+    border-radius:7px;
+}
+
+
+#list ul>li{
+    border-bottom: 2px solid black ;
+    padding: 20px 20px; 
+}
+
+#list ul>li:last-child{
+    border-bottom: none;
+
+}
+
+#list ul>li>dl{
+    width: 100%;
+    position: relative;
+    border-radius:7px;
+}
+
+#list ul>li>dl>dt{
+font-size: 23px;
+color: rgb(14, 194, 203);
+margin-bottom: 20px;
+display: flex;
+align-items: center;
+text-shadow: 2px 2px 2px black;
+}
+
+#list ul>li>dl>dt>div{
+    margin-right: 6px;
+}
+
+
+#list ul>li>dl>dd>dfn{
+    font-size: 19px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    color:rgb(8, 39, 219);
+}
+
+#list ul>li>dl>dd{
+    padding-bottom: 20px;
+    color: black;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+#list ul>li>dl>dd>div{
+    margin-right: 6px;
+}
+
+
+#list ul>li>dl>dd.date{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+
+#list ul>li>button{
+    width: 100%; height: 50px;
+    background-color: #9a0404;
+    color: #fff;
+    border: none;
+    font-size: 25px;
+    border-radius:7px;
+}
+
+
+
