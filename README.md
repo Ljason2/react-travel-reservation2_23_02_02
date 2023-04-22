@@ -19,7 +19,7 @@
 - VScode, npm, Node.js, AWS
 
 <img src="https://jason-img.s3.amazonaws.com/mdoc/vscode.png" style="width:90px"><img src="https://jason-img.s3.amazonaws.com/mdoc/npm2.png" style="width:60px; margin-left:3px;">
-<img src="https://jason-img.s3.amazonaws.com/mdoc/nodejs.png" style="width:91px"> <img src="https://jason-img.s3.amazonaws.com/mdoc/aws.png" style="width:110px">
+<img src="https://jason-img.s3.amazonaws.com/mdoc/nodejs.png" style="width:91px"> <img src="https://jason-img.s3.amazonaws.com/mdoc/aws.png" style="width:90px">
 
 
 
